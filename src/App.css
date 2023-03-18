@@ -1,0 +1,8 @@
+.App {
+  font-family: "DungGeunMo";
+}
+
+@font-face {
+  font-family: "DungGeunMo";
+  src: url(/src/assets/fonts/DungGeunMo.ttf);
+}
