@@ -1,7 +1,7 @@
 import React from "react";
 // css-in-js
 import styled from "styled-components";
-import bcImage from "../assets/babyCat.jpg";
+import bcImage from "../assets/cat/babyCat.jpg";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
 
