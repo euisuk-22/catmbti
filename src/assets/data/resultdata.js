@@ -1,4 +1,3 @@
-import Silvergrass from "../flower/silver-grass.jpg";
 import Sunflower from "../flower/sunflower.jpg";
 import Lily from "../flower/Lily.jpg";
 import Daisy from "../flower/daisy.jpg";

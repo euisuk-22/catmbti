@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import swImage from "../assets/flower/start-window.jpg";
 import Button from "react-bootstrap/Button";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { ResultData } from "../assets/data/resultdata";
