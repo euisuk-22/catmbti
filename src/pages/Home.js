@@ -1,7 +1,7 @@
 import React from "react";
 // css-in-js
 import styled from "styled-components";
-import bcImage from "../assets/cat/babyCat.jpg";
+import swImage from "../assets/flower/start-window.jpg";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
 
@@ -14,18 +14,18 @@ const Home = () => {
 
   return (
     <Wrapper>
-      <Header>예비집사 판별기</Header>
+      <Header>환경 MBTI</Header>
       <Contents>
-        <Title>나에게 맞는 주인님은?</Title>
+        <Title>나랑 어울리는 꽃은?</Title>
         <LogoImage>
           <img
-            src={bcImage}
+            src={swImage}
             className="rounded-circle"
             width={500}
             height={350}
           />
         </LogoImage>
-        <Desc>Mbti를 기반으로 하는 나랑 잘맞는 고양이 찾기!</Desc>
+        <Desc>나의 환경 MBTI와 어울리는 꽃을 알아보자!</Desc>
         <Button
           style={{ fontFamily: "DungGeunMo" }}
           onClick={handleClickButton}
