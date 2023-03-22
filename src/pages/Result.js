@@ -32,6 +32,7 @@ const Result = () => {
             height={350}
           />
         </LogoImage>
+        <Desc>나의 환경 MBTI는 {resultData.best}입니다.</Desc>
         <Desc>나의 환경 MBTI와 찰떡궁합인 꽃은 {resultData.name}입니다.</Desc>
         <Button
           style={{ fontFamily: "DungGeunMo" }}
@@ -79,6 +80,6 @@ const LogoImage = styled.div`
 const Desc = styled.div`
   font-size: 20pt;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: "DungGeunMo";
 `;

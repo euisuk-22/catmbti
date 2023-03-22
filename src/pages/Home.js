@@ -14,9 +14,9 @@ const Home = () => {
 
   return (
     <Wrapper>
-      <Header>환경 MBTI</Header>
+      <Header>🍀 환경 MBTI 🍀</Header>
       <Contents>
-        <Title>나랑 어울리는 꽃은?</Title>
+        <Title>나의 환경 MBTI와 어울리는 꽃은?</Title>
         <LogoImage>
           <img
             src={swImage}
@@ -25,7 +25,9 @@ const Home = () => {
             height={350}
           />
         </LogoImage>
-        <Desc>나의 환경 MBTI와 어울리는 꽃을 알아보자!</Desc>
+        <Desc>
+          MBTI에 기반하여 나의 환경 MBTI와 어울리는 꽃이 무엇인지 알아보자!
+        </Desc>
         <Button
           style={{ fontFamily: "DungGeunMo" }}
           onClick={handleClickButton}
