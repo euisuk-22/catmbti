@@ -19,6 +19,7 @@ const Home = () => {
         <Title>나의 환경 MBTI와 어울리는 꽃은?</Title>
         <LogoImage>
           <img
+            alt="꽃 사진"
             src={swImage}
             className="rounded-circle"
             width={500}
