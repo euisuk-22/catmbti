@@ -10,8 +10,9 @@ const KakaoShareButton = () => {
       Kakao.Link.sendDefault({
         objectType: "feed",
         content: {
-          title: "오늘의 디저트",
-          description: "아메리카노, 빵, 케익",
+          title: "나의 환경 MBTI와 어울리는 환경 보호 활동은?",
+          description:
+            "나의 환경 MBTI와 어울리는 환경 보호 활동은 재활용입니다.",
           imageUrl:
             "https://mud-kage.kakao.com/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg",
           link: {
