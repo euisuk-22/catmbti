@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Button from "react-bootstrap/Button";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { ResultData } from "../assets/data/resultdata";
-import KakaoShareButton from "../component/KakaoShareButton";
 
 const Result = () => {
   const navigate = useNavigate();
@@ -42,7 +41,6 @@ const Result = () => {
           >
             테스트 다시하기
           </Button>
-          <KakaoShareButton />
         </ButtonGroup>
       </Contents>
     </Wrapper>
