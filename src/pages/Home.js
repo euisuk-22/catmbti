@@ -14,9 +14,9 @@ const Home = () => {
 
   return (
     <Wrapper>
-      <Header>🍀 환경 MBTI 🍀</Header>
+      <Header> 환경 MBTI </Header>
       <Contents>
-        <Title>나의 환경 MBTI와 어울리는 꽃은?</Title>
+        <Title>나의 환경 MBTI와 어울리는 환경 보호 활동은?</Title>
         <LogoImage>
           <img
             alt="꽃 사진"
@@ -27,12 +27,10 @@ const Home = () => {
           />
         </LogoImage>
         <Desc>
-          MBTI에 기반하여 나의 환경 MBTI와 어울리는 꽃이 무엇인지 알아보자!
+          MBTI에 기반하여 나의 환경 MBTI와 어울리는 환경 보호 활동이 무엇인지
+          알아보자!
         </Desc>
-        <Button
-          style={{ fontFamily: "DungGeunMo" }}
-          onClick={handleClickButton}
-        >
+        <Button style={{ fontFamily: "Lee" }} onClick={handleClickButton}>
           테스트 시작하기
         </Button>
       </Contents>
@@ -52,7 +50,7 @@ const Header = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "DungGeunMo";
+  font-family: "Lee";
 `;
 
 const Contents = styled.div`
@@ -65,7 +63,7 @@ const Contents = styled.div`
 const Title = styled.div`
   font-size: 30pt;
   margin-top: 40px;
-  font-family: "DungGeunMo";
+  font-family: "Lee";
 `;
 
 const LogoImage = styled.div`
@@ -76,5 +74,5 @@ const Desc = styled.div`
   font-size: 20pt;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "DungGeunMo";
+  font-family: "Lee";
 `;

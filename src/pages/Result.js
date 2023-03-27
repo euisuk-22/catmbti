@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "react-bootstrap/Button";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { ResultData } from "../assets/data/resultdata";
+import KakaoShareButton from "../component/KakaoShareButton";
 
 const Result = () => {
   const navigate = useNavigate();
@@ -34,12 +35,15 @@ const Result = () => {
         </LogoImage>
         <Desc>나의 환경 MBTI는 {resultData.best}입니다.</Desc>
         <Desc>나의 환경 MBTI와 찰떡궁합인 꽃은 {resultData.name}입니다.</Desc>
-        <Button
-          style={{ fontFamily: "DungGeunMo" }}
-          onClick={() => navigate("/")}
-        >
-          테스트 다시하기
-        </Button>
+        <ButtonGroup>
+          <Button
+            style={{ fontFamily: "Lee", width: 170 }}
+            onClick={() => navigate("/")}
+          >
+            테스트 다시하기
+          </Button>
+          <KakaoShareButton />
+        </ButtonGroup>
       </Contents>
     </Wrapper>
   );
@@ -57,7 +61,7 @@ const Header = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "DungGeunMo";
+  font-family: "Lee";
 `;
 
 const Contents = styled.div`
@@ -70,7 +74,7 @@ const Contents = styled.div`
 const Title = styled.div`
   font-size: 30pt;
   margin-top: 40px;
-  font-family: "DungGeunMo";
+  font-family: "Lee";
 `;
 
 const LogoImage = styled.div`
@@ -81,5 +85,10 @@ const Desc = styled.div`
   font-size: 20pt;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: "DungGeunMo";
+  font-family: "Lee";
+`;
+
+const ButtonGroup = styled.div`
+  display: flex;
+  flex-direction: row;
 `;

@@ -1,8 +1,8 @@
 .App {
-  font-family: "DungGeunMo";
+  font-family: "Lee";
 }
 
 @font-face {
-  font-family: "DungGeunMo";
-  src: url(/src/assets/fonts/DungGeunMo.ttf);
+  font-family: "Lee";
+  src: url(/src/assets/fonts/LeeSeoyun.otf);
 }

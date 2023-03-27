@@ -105,7 +105,7 @@ const Wrapper = styled.div`
 const Title = styled.div`
   font-size: 25pt;
   text-align: center;
-  font-family: "DungGeunMo";
+  font-family: "Lee";
   margin-top: 100px;
   margin-bottom: 70px;
 `;
@@ -115,5 +115,5 @@ const ButtonGroup = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-family: "DungGeunMo";
+  font-family: "Lee";
 `;
