@@ -36,6 +36,7 @@ const Result = () => {
         <Desc>
           나의 환경 MBTI와 어울리는 환경 보호 활동은 {resultData.name}입니다.
         </Desc>
+        <Desc>{resultData.desc}</Desc>
         <ButtonGroup>
           <Button
             style={{ fontFamily: "Lee", width: 170 }}
@@ -73,7 +74,7 @@ const Contents = styled.div`
 
 const Title = styled.div`
   font-size: 30pt;
-  margin-top: 40px;
+  margin-top: 30px;
   font-family: "Lee";
 `;
 
