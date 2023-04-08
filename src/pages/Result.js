@@ -33,7 +33,9 @@ const Result = () => {
           />
         </LogoImage>
         <Desc>나의 환경 MBTI는 {resultData.best}입니다.</Desc>
-        <Desc>나의 환경 MBTI와 찰떡궁합인 꽃은 {resultData.name}입니다.</Desc>
+        <Desc>
+          나의 환경 MBTI와 어울리는 환경 보호 활동은 {resultData.name}입니다.
+        </Desc>
         <ButtonGroup>
           <Button
             style={{ fontFamily: "Lee", width: 170 }}
