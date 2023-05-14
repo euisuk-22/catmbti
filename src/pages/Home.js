@@ -67,6 +67,7 @@ const Contents = styled.div`
 const Title = styled.div`
   font-size: 30pt;
   font-family: "Lee";
+  text-align: center;
 `;
 
 const Desc = styled.div`
@@ -79,5 +80,5 @@ const Desc = styled.div`
 const Paragra = styled.div`
   font-size: 15px;
   font-family: "Lee";
-  margin-left: auto;
+  margin-top: 10px;
 `;
