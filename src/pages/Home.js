@@ -16,7 +16,7 @@ const Home = () => {
     <Wrapper>
       <Header>환경 MBTI</Header>
       <Contents>
-        <Title>나의 MBTI와 어울리는 재활용품은?</Title>
+        <Title>내 환경 MBTI와 어울리는 재활용품은?</Title>
         <LogoImage>
           <img
             alt="로고 이미지"
