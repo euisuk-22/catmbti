@@ -40,27 +40,6 @@ const Question = () => {
         })}`,
       });
     }
-
-    // if (type === "EI") {
-    //   // 기존 스코어에 더할 값을 계산 (기존의 값 + 배점)
-    //   const addScore = totalScore[0].score + no;
-    //   // 새로운 객체
-    //   const newObject = { id: "EI", score: addScore };
-    //   // splice 함수를 통해 새로운 객체를 해당 객체 자리에 넣어줌
-    //   totalScore.splice(0, 1, newObject);
-    // } else if (type === "SN") {
-    //   const addScore = totalScore[1].score + no;
-    //   const newObject = { id: "SN", score: addScore };
-    //   totalScore.splice(1, 1, newObject);
-    // } else if (type === "TF") {
-    //   const addScore = totalScore[2].score + no;
-    //   const newObject = { id: "TF", score: addScore };
-    //   totalScore.splice(2, 1, newObject);
-    // } else if (type === "JP") {
-    //   const addScore = totalScore[3].score + no;
-    //   const newObject = { id: "JP", score: addScore };
-    //   totalScore.splice(3, 1, newObject);
-    // }
   };
 
   return (
@@ -76,7 +55,7 @@ const Question = () => {
         <Button
           onClick={() => handleClickButton(1, QuestionData[questionNo].type)}
           style={{
-            width: "40%",
+            width: "60%",
             minHeight: "200px",
             fontSize: "15pt",
             backgroundColor: "rgb(161, 203, 161)",
@@ -88,10 +67,10 @@ const Question = () => {
         <Button
           onClick={() => handleClickButton(0, QuestionData[questionNo].type)}
           style={{
-            width: "40%",
+            width: "60%",
             minHeight: "200px",
             fontSize: "15pt",
-            marginLeft: "20px",
+            marginTop: "20px",
             backgroundColor: "rgb(161, 203, 161)",
             borderColor: "rgb(161, 203, 161)",
           }}
@@ -120,7 +99,7 @@ const Title = styled.div`
 
 const ButtonGroup = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Lee";

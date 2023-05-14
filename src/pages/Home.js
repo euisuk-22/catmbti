@@ -29,7 +29,10 @@ const Home = () => {
         <Desc>
           MBTI에 기반하여 나의 MBTI와 어울리는 재활용품이 무엇인지 알아보자!
         </Desc>
-        <Button style={{ fontFamily: "Lee" }} onClick={handleClickButton}>
+        <Button
+          style={{ fontFamily: "Lee", width: 200, height: 50, fontSize: 20 }}
+          onClick={handleClickButton}
+        >
           테스트 시작하기
         </Button>
         <Paragra>유형별 MBTI가 궁금하다면 grew__dku</Paragra>
@@ -66,6 +69,7 @@ const Contents = styled.div`
 
 const Title = styled.div`
   font-size: 30pt;
+  margin-top: 10px;
   font-family: "Lee";
   text-align: center;
 `;

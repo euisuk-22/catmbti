@@ -73,7 +73,7 @@ const Contents = styled.div`
 
 const Title = styled.div`
   font-size: 30pt;
-  margin-top: 30px;
+  margin-top: 10px;
   font-family: "Lee";
 `;
 
