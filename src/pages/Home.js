@@ -75,6 +75,7 @@ const Desc = styled.div`
   margin-top: 10px;
   margin-bottom: 20px;
   font-family: "Lee";
+  text-align: center;
 `;
 
 const Paragra = styled.div`

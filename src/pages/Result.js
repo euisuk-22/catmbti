@@ -91,4 +91,5 @@ const Desc = styled.div`
   font-size: 20px;
   font-family: "Lee";
   margin-top: 10px;
+  text-align: center;
 `;
