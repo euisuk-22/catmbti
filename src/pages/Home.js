@@ -1,9 +1,9 @@
 import React from "react";
 // css-in-js
 import styled from "styled-components";
-import swImage from "../assets/flower/start-window.jpg";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
+import swImage from "../assets/mbti_image/homeScreen.png";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -14,25 +14,25 @@ const Home = () => {
 
   return (
     <Wrapper>
-      <Header> 환경 MBTI </Header>
+      <Header>환경 MBTI</Header>
       <Contents>
-        <Title>나의 환경 MBTI와 어울리는 환경 보호 활동은?</Title>
+        <Title>나의 MBTI와 어울리는 재활용품은?</Title>
         <LogoImage>
           <img
-            alt="꽃 사진"
+            alt="로고 이미지"
             src={swImage}
-            className="rounded-circle"
-            width={500}
-            height={350}
+            className="rounded"
+            width={350}
+            height={495}
           />
         </LogoImage>
         <Desc>
-          MBTI에 기반하여 나의 환경 MBTI와 어울리는 환경 보호 활동이 무엇인지
-          알아보자!
+          MBTI에 기반하여 나의 MBTI와 어울리는 재활용품이 무엇인지 알아보자!
         </Desc>
         <Button style={{ fontFamily: "Lee" }} onClick={handleClickButton}>
           테스트 시작하기
         </Button>
+        <Paragra>유형별 MBTI가 궁금하다면 grew__dku</Paragra>
       </Contents>
     </Wrapper>
   );
@@ -43,6 +43,10 @@ export default Home;
 const Wrapper = styled.div`
   height: 100vh;
   width: 100%;
+`;
+
+const LogoImage = styled.div`
+  margin-top: 10px;
 `;
 
 const Header = styled.div`
@@ -62,17 +66,18 @@ const Contents = styled.div`
 
 const Title = styled.div`
   font-size: 30pt;
-  margin-top: 40px;
   font-family: "Lee";
-`;
-
-const LogoImage = styled.div`
-  margin-top: 10px;
 `;
 
 const Desc = styled.div`
   font-size: 20pt;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   font-family: "Lee";
+`;
+
+const Paragra = styled.div`
+  font-size: 15px;
+  font-family: "Lee";
+  margin-left: auto;
 `;

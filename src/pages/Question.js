@@ -75,7 +75,13 @@ const Question = () => {
       <ButtonGroup>
         <Button
           onClick={() => handleClickButton(1, QuestionData[questionNo].type)}
-          style={{ width: "40%", minHeight: "200px", fontSize: "15pt" }}
+          style={{
+            width: "40%",
+            minHeight: "200px",
+            fontSize: "15pt",
+            backgroundColor: "rgb(161, 203, 161)",
+            borderColor: "rgb(161, 203, 161)",
+          }}
         >
           {QuestionData[questionNo].answera}
         </Button>
@@ -86,6 +92,8 @@ const Question = () => {
             minHeight: "200px",
             fontSize: "15pt",
             marginLeft: "20px",
+            backgroundColor: "rgb(161, 203, 161)",
+            borderColor: "rgb(161, 203, 161)",
           }}
         >
           {QuestionData[questionNo].answerb}

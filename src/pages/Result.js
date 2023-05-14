@@ -20,23 +20,19 @@ const Result = () => {
 
   return (
     <Wrapper>
-      <Header>환경 보호 스타일 MBTI</Header>
+      <Header>환경 MBTI</Header>
       <Contents>
         <Title>결과 보기</Title>
         <LogoImage>
           <img
             alt="결과 이미지"
             src={resultData.image}
-            className="rounded-circle"
-            width={500}
-            height={350}
+            className="rounded"
+            width={400}
+            height={600}
           />
         </LogoImage>
-        <Desc>나의 환경 MBTI는 {resultData.best}입니다.</Desc>
-        <Desc>
-          나의 환경 MBTI와 어울리는 환경 보호 활동은 {resultData.name}입니다.
-        </Desc>
-        <Desc>{resultData.desc}</Desc>
+
         <ButtonGroup>
           <Button
             style={{ fontFamily: "Lee", width: 170 }}
@@ -82,14 +78,8 @@ const LogoImage = styled.div`
   margin-top: 10px;
 `;
 
-const Desc = styled.div`
-  font-size: 20pt;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-family: "Lee";
-`;
-
 const ButtonGroup = styled.div`
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
 `;
