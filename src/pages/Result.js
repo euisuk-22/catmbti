@@ -32,9 +32,11 @@ const Result = () => {
             height={600}
           />
         </LogoImage>
-        <Desc>
+
+        <Desc>{resultData.desc}</Desc>
+        <Paragra>
           유형별 MBTI가 궁금하다면 인스타에서 "grew__dku"를 검색해주세요.
-        </Desc>
+        </Paragra>
 
         <ButtonGroup>
           <Button
@@ -88,6 +90,13 @@ const ButtonGroup = styled.div`
 `;
 
 const Desc = styled.div`
+  font-size: 20px;
+  font-family: "Lee";
+  margin-top: 10px;
+  text-align: center;
+`;
+
+const Paragra = styled.div`
   font-size: 20px;
   font-family: "Lee";
   margin-top: 10px;
