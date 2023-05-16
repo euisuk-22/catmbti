@@ -56,7 +56,7 @@ const Question = () => {
           onClick={() => handleClickButton(1, QuestionData[questionNo].type)}
           style={{
             width: "70%",
-            minHeight: "150px",
+            minHeight: "130px",
             fontSize: "15pt",
             backgroundColor: "rgb(161, 203, 161)",
             borderColor: "rgb(161, 203, 161)",
@@ -68,7 +68,7 @@ const Question = () => {
           onClick={() => handleClickButton(0, QuestionData[questionNo].type)}
           style={{
             width: "70%",
-            minHeight: "150px",
+            minHeight: "130px",
             fontSize: "15pt",
             marginTop: "20px",
             backgroundColor: "rgb(161, 203, 161)",
@@ -93,7 +93,7 @@ const Title = styled.div`
   font-size: 25pt;
   text-align: center;
   font-family: "Lee";
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 70px;
 `;
 
