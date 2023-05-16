@@ -55,8 +55,8 @@ const Question = () => {
         <Button
           onClick={() => handleClickButton(1, QuestionData[questionNo].type)}
           style={{
-            width: "60%",
-            minHeight: "200px",
+            width: "70%",
+            minHeight: "150px",
             fontSize: "15pt",
             backgroundColor: "rgb(161, 203, 161)",
             borderColor: "rgb(161, 203, 161)",
@@ -67,8 +67,8 @@ const Question = () => {
         <Button
           onClick={() => handleClickButton(0, QuestionData[questionNo].type)}
           style={{
-            width: "60%",
-            minHeight: "200px",
+            width: "70%",
+            minHeight: "150px",
             fontSize: "15pt",
             marginTop: "20px",
             backgroundColor: "rgb(161, 203, 161)",

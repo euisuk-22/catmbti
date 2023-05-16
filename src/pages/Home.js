@@ -72,6 +72,8 @@ const Title = styled.div`
   margin-top: 10px;
   font-family: "Lee";
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 `;
 
 const Desc = styled.div`
@@ -80,6 +82,8 @@ const Desc = styled.div`
   margin-bottom: 20px;
   font-family: "Lee";
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 `;
 
 const Paragra = styled.div`
