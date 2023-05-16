@@ -85,7 +85,7 @@ const Title = styled.div`
 
 const Desc = styled.div`
   font-size: 20pt;
-  margin-top: 10px;
+
   margin-bottom: 20px;
   font-family: "Lee";
   text-align: center;
