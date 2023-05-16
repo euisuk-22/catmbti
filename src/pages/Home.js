@@ -16,7 +16,10 @@ const Home = () => {
     <Wrapper>
       <Header>환경 MBTI</Header>
       <Contents>
-        <Title>내 환경 MBTI와 어울리는 재활용품은?</Title>
+        <Title>
+          내 환경 MBTI와 <br />
+          어울리는 재활용품은?
+        </Title>
         <LogoImage>
           <img
             alt="로고 이미지"
@@ -27,7 +30,8 @@ const Home = () => {
           />
         </LogoImage>
         <Desc>
-          MBTI에 기반하여 나의 MBTI와 어울리는 재활용품이 무엇인지 알아보자!
+          나의 MBTI와 어울리는 <br />
+          재활용품이 무엇인지 알아보자!
         </Desc>
         <Button
           style={{ fontFamily: "Lee", width: 200, height: 50, fontSize: 20 }}
@@ -58,6 +62,8 @@ const Header = styled.div`
   justify-content: center;
   align-items: center;
   font-family: "Lee";
+  background-color: rgb(3, 207, 91);
+  margin: auto;
 `;
 
 const Contents = styled.div`
