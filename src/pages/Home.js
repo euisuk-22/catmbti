@@ -62,9 +62,6 @@ const Header = styled.div`
   justify-content: center;
   align-items: center;
   font-family: "Lee";
-  background-color: rgb(3, 207, 91);
-  margin: auto;
-  color: white;
 `;
 
 const Contents = styled.div`

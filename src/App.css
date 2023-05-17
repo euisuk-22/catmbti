@@ -1,5 +1,6 @@
 .App {
   font-family: "Lee";
+  white-space: pre-line;
 }
 
 @font-face {
