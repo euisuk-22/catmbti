@@ -94,7 +94,9 @@ const Title = styled.div`
   text-align: center;
   font-family: "Lee";
   margin-top: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 `;
 
 const ButtonGroup = styled.div`

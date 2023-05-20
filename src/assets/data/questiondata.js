@@ -32,7 +32,7 @@ export const QuestionData = [
   {
     id: 5,
     title: "환경 보호를 위해 가장 중요한 것은 무엇이라고 생각하시나요?",
-    answera: "개인의 노력, 자발적인 동이 중요하다.",
+    answera: "개인의 노력, 자발적인 행동이 중요하다.",
     answerb: "정부와 기업의 적극적인 대응과 지원이 중요하다.",
     type: "SN",
   },
