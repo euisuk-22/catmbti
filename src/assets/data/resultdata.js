@@ -14,7 +14,6 @@ import IcePack from "../mbti_image/icePack.png";
 import GlassBottle from "../mbti_image/glassBottle.png";
 import Box from "../mbti_image/box.png";
 import HotPack from "../mbti_image/hotPack.png";
-// 아이디어를 바꿔야 되는게 꽃으로만 하면 단순하게 끝날 수가 있고, 어울리는 환경 활동들을 알려주는 게 좀 더 취지에 맞는 것 같은데 .. 근데 그러면 사진을 어떻게 사용하지
 
 export const ResultData = [
   {

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "react-bootstrap/Button";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { ResultData } from "../assets/data/resultdata";
+import { ResultDesc } from "../assets/data/resultdesc";
 
 const Result = () => {
   const navigate = useNavigate();
@@ -33,7 +34,16 @@ const Result = () => {
           />
         </LogoImage>
 
-        <Desc>{resultData.desc}</Desc>
+        <DescImage>
+          <img
+            alt="결과 설명 이미지"
+            src={ResultDesc.image}
+            className="rounded"
+            width={400}
+            height={600}
+          />
+        </DescImage>
+
         <Paragra>
           유형별 MBTI가 궁금하다면 인스타에서 "grew__dku"를 검색해주세요.
         </Paragra>
@@ -101,4 +111,8 @@ const Paragra = styled.div`
   font-family: "Lee";
   margin-top: 10px;
   text-align: center;
+`;
+
+const DescImage = styled.div`
+  margin-top: 1px;
 `;
