@@ -1,19 +1,19 @@
-import GameDesc from "../mbti_image/descImage/gameDesc.png";
-import YogurtBottleDesc from "../mbti_image/descImage/yogurtBottleDesc.png";
-import PaperCupDesc from "../mbti_image/descImage/paperCupDesc.jpg";
-import BatteryDesc from "../mbti_image/descImage/batteryDesc.jpg";
-import EnergyCanDesc from "../mbti_image/descImage/energyCanDesc.jpg";
-import PetDesc from "../mbti_image/descImage/petDesc.jpg";
-import ChocoMilkDesc from "../mbti_image/descImage/chocoMilkDesc.jpg";
-import ClothDesc from "../mbti_image/descImage/clothDesc.jpg";
-import RobotDesc from "../mbti_image/descImage/robotDesc.jpg";
-import HotPackDesc from "../mbti_image/descImage/hotPackDesc.jpg";
-import BoxDesc from "../mbti_image/descImage/boxDesc.jpg";
-import GlassBottleDesc from "../mbti_image/descImage/glassBottleDesc.jpg";
-import IcePackDesc from "../mbti_image/descImage/icePackDesc.jpg";
-import PaperDesc from "../mbti_image/descImage/paperDesc.jpg";
-import WrappingPaperDesc from "../mbti_image/descImage/wrappingPaperDesc.jpg";
-import BondDesc from "../mbti_image/descImage/bondDesc.jpg";
+import GameDesc from "../mbti_image/gameDesc.png";
+import YogurtBottleDesc from "../mbti_image/yogurtDesc.png";
+import PaperCupDesc from "../mbti_image/papercupDesc.png";
+import BatteryDesc from "../mbti_image/batteryDesc.png";
+import EnergyCanDesc from "../mbti_image/energycanDesc.png";
+import PetDesc from "../mbti_image/petbottleDesc.png";
+import ChocoMilkDesc from "../mbti_image/chocoDesc.png";
+import ClothDesc from "../mbti_image/clothesDesc.png";
+import RobotDesc from "../mbti_image/robotDesc.png";
+import HotPackDesc from "../mbti_image/hotpackDesc.png";
+import BoxDesc from "../mbti_image/paperboxDesc.png";
+import GlassBottleDesc from "../mbti_image/glassbottleDesc.png";
+import IcePackDesc from "../mbti_image/icepackDesc.png";
+import PaperDesc from "../mbti_image/paperDesc.png";
+import WrappingPaperDesc from "../mbti_image/wrapDesc.png";
+import BondDesc from "../mbti_image/bondDesc.png";
 
 export const ResultDesc = [
   {
