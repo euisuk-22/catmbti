@@ -57,7 +57,7 @@ const LogoImage = styled.div`
 `;
 
 const Header = styled.div`
-  font-size: 40pt;
+  font-size: 50pt;
   display: flex;
   justify-content: center;
   align-items: center;
