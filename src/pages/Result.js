@@ -34,7 +34,7 @@ const Result = () => {
         </LogoImage>
 
         <Paragra>
-          유형별 MBTI가 궁금하다면 <br />
+          결과 유형별 어떤 MBTI인지 궁금하다면 <br />
           인스타에서 "grew__dku"를 검색해주세요.
         </Paragra>
 

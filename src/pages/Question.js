@@ -57,9 +57,9 @@ const Question = () => {
           style={{
             width: "80%",
             minHeight: "140px",
-            fontSize: "15pt",
-            backgroundColor: "rgb(161, 203, 161)",
-            borderColor: "rgb(161, 203, 161)",
+            fontSize: "20pt",
+            backgroundColor: "rgb(13, 177, 3)",
+            borderColor: "rgb(13, 177, 3)",
           }}
         >
           {QuestionData[questionNo].answera}
@@ -69,10 +69,10 @@ const Question = () => {
           style={{
             width: "80%",
             minHeight: "140px",
-            fontSize: "15pt",
+            fontSize: "20pt",
             marginTop: "20px",
-            backgroundColor: "rgb(161, 203, 161)",
-            borderColor: "rgb(161, 203, 161)",
+            backgroundColor: "rgb(13, 177, 3)",
+            borderColor: "rgb(13, 177, 3)",
           }}
         >
           {QuestionData[questionNo].answerb}
