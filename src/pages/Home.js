@@ -48,7 +48,7 @@ const Home = () => {
 export default Home;
 
 const Wrapper = styled.div`
-  height: 100vh;
+  height: 120vh;
   width: 100%;
 `;
 
